@@ -4,3 +4,11 @@ h1{
 .styles{
     color:green;
 }
+p{
+    background: burlywood;
+    color: aquamarine
+}
+#para1 {
+    text-align: center;
+    color:seagreen;
+}
