@@ -23,6 +23,7 @@ body{
 .intro{
     max-width: 600px;
     width: 90%;
+    font-size: 15px;
     text-align: center;
 }
 
