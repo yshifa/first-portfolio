@@ -62,12 +62,17 @@ body {
   .header-element {
     /* margin:30px ; */
     padding: 15px;
-    font-size: 2rem;
+    font-size: 1.1rem;
     display: inline;
   }
 
+  .intro {
+    height: 40vh;
+  }
+
   .section-element {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+    max-width: 800px;
   }
 
   /* .box{
