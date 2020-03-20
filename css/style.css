@@ -19,13 +19,24 @@ body{
     text-align: center;
 }
 
-
 .intro{
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+
+
+.section-element{
     max-width: 600px;
     width: 90%;
     font-size: 15px;
     text-align: center;
 }
+
+
 
 @media(min-width:768px){
 
