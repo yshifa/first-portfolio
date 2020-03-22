@@ -47,11 +47,17 @@ body {
 h3 {
   font-size: 1.5rem;
   margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .wrapper {
   text-align: center;
   font-size: 1.4rem;
+}
+
+.skills-element {
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
