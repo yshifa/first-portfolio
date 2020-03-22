@@ -57,6 +57,10 @@ body {
 }
 
 .wrapper {
+  display: flex;
+}
+
+.wrapper-1 {
   text-align: center;
 }
 
@@ -64,10 +68,20 @@ h3 {
   font-size: 1.5rem;
   margin-top: 2rem;
 }
+.degree-2 {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0.3rem 0;
+  font-size: 1.4rem;
+}
+
+.wrapper-2 {
+  text-align: center;
+}
 
 @media (min-width: 768px) {
   .section-element {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -98,17 +112,39 @@ h3 {
   }
 
   .section-element {
-    font-size: 2.3rem;
+    font-size: 3rem;
     max-width: 800px;
-    /* object-fit: contain; */
+    object-fit: contain;
   }
 
   .wrapper {
     display: flex;
+    text-align: center;
   }
-  .degree {
-    width: 50%;
+
+  .wrapper-1 {
+    width: 33%;
+    /* font-size: 1.7rem; */
+    float: left;
+    display: block;
+    text-align: center;
   }
+
+  .wrapper-2 {
+    width: 33%;
+    /* font-size: 1.7rem; */
+    float: left;
+    display: block;
+    text-align: center;
+  }
+
+  /* .degree-1 {
+    max-width: 70%;
+  } */
+
+  /* h3 {
+    text-align: center;
+  } */
 
   /* .box{
         width: 300px;
