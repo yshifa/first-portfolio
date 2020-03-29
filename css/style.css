@@ -134,6 +134,10 @@ h3 {
     width: 33%;
     font-size: 1.7rem;
   }
+  .skills-element {
+    max-width: 70%;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1200px) {
