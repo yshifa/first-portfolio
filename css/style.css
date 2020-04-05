@@ -205,6 +205,7 @@ h3 {
   .work-section {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 1rem;
