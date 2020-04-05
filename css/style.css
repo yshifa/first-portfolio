@@ -69,9 +69,9 @@ h3 {
 }
 
 .work-image {
-  width: 100%;
-  max-width: 33%;
-  margin: 10px;
+  max-width: 350px;
+  width: 90%;
+  margin: 1em auto;
 }
 
 @media (min-width: 768px) {
@@ -157,6 +157,7 @@ h3 {
   .work-section {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
 }
 
