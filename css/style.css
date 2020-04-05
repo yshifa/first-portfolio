@@ -106,9 +106,12 @@ h3 {
     margin: 0 auto;
   }
 
-  .work-image {
-    max-width: 90%;
+  .work-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
+
   .work-heading h3 {
     font-size: 2.1rem;
   }
