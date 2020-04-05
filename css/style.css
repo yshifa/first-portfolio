@@ -62,6 +62,18 @@ h3 {
   margin: 0 auto;
 }
 
+.work-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.work-image {
+  width: 100%;
+  max-width: 33%;
+  margin: 10px;
+}
+
 @media (min-width: 768px) {
   .name {
     font-size: 2.5rem;
@@ -140,6 +152,11 @@ h3 {
   .skills-element {
     max-width: 70%;
     margin: 0 auto;
+  }
+
+  .work-section {
+    display: flex;
+    flex-direction: row;
   }
 }
 
