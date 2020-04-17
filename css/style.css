@@ -109,6 +109,32 @@ h3 {
   display: none;
 }
 
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.icon-bar .github {
+  background: #171515;
+  color: white;
+}
+
+.icon-bar .linkedin {
+  background: #007bb5;
+  color: white;
+}
+
 @media (min-width: 768px) {
   .name {
     font-size: 2.5rem;
@@ -241,6 +267,10 @@ h3 {
     z-index: -1;
     transform: rotate(90deg);
     margin-top: 50px;
+  }
+
+  .icon-bar {
+    display: none;
   }
 }
 
