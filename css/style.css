@@ -115,9 +115,8 @@ h3 {
 
 .icon-bar {
   position: fixed;
-  top: 53%;
-  right: 0;
-  transform: translateY(-50%);
+  top: 45%;
+  right: 0.3rem;
 }
 
 .icon-bar a {
