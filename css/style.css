@@ -152,6 +152,11 @@ h3 {
   background: white;
 }
 
+.download {
+  color: black;
+  background-color: white;
+}
+
 @media (min-width: 768px) {
   .name {
     font-size: 2.5rem;
@@ -219,6 +224,10 @@ h3 {
   .header-element a {
     color: inherit;
     cursor: pointer;
+  }
+
+  .header-element a:hover {
+    color: lightslategray;
   }
 
   .intro {
