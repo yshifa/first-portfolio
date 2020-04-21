@@ -117,8 +117,6 @@ h3 {
   position: fixed;
   top: 53%;
   right: 0;
-  /* -webkit-transform: translateY(-50%); */
-  /* -ms-transform: translateY(-50%); */
   transform: translateY(-50%);
 }
 
@@ -128,7 +126,7 @@ h3 {
   padding: 0.5rem;
   transition: all 0.3s ease;
   font-size: 1.2rem;
-  border-radius: 1.1rem;
+  border-radius: 1rem;
   margin-bottom: 4px;
 }
 
