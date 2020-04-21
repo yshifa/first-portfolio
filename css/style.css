@@ -129,6 +129,11 @@ h3 {
   font-size: 1.5rem;
 }
 
+.icon-bar:hover {
+  transform: scale(1.05);
+  color: black;
+}
+
 .icon-bar .github {
   color: #171515;
   background: white;
@@ -136,6 +141,11 @@ h3 {
 
 .icon-bar .linkedin {
   color: #007bb5;
+  background: white;
+}
+
+.icon-bar .mail {
+  color: red;
   background: white;
 }
 
