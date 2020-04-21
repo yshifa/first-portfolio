@@ -123,9 +123,11 @@ h3 {
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.7rem;
   transition: all 0.3s ease;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 1rem;
   margin-bottom: 4px;
 }
